@@ -1,0 +1,6 @@
+Connect 4 is a two-player game with red and yellow pieces.
+The grid is 7x6 and will need to be printed after each turn.
+Red player will start first, and then red and yellow players take turns starting first in consecutive games.
+Red player picks a row and drops a piece in that slot.
+Play alternates until a player gets 4 pieces in a row horizontally, vertically or diagonally.
+Players can choose to play again or stop playing at the end of a match.
