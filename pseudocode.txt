@@ -1,6 +1,10 @@
-Connect 4 is a two-player game with red and yellow pieces.
-The grid is 7x6 and will need to be printed after each turn.
-Red player will start first, and then red and yellow players take turns starting first in consecutive games.
-Red player picks a row and drops a piece in that slot.
-Play alternates until a player gets 4 pieces in a row horizontally, vertically or diagonally.
-Players can choose to play again or stop playing at the end of a match.
+1. Create a Connect 4 game for two players:
+	a. The first player (R) will use red checkers and the second player (Y) will use yellow checkers.
+	b. The grid is 7x6. During their turn, player R will select the column they would like to insert a checker (1-7). The unoccupied slot closest to the bottom of that column will be filled in with the player's letter (R).
+	c. A single checker insertion ends the turn, and turns alternate between player R and player Y until one player has 4 of their letters in a row horizontally, vertically, or diagonally.
+2. Handle user error:
+	a. If a player attempts to insert a checker in a row that is already full, print message: "That row is full. Please select a different one."
+3. Determine a winner and play again:
+	a. Print "Congratulations, player __! You've won!"
+	b. Get input "Would you like to play again? y/n"
+		if y: start over, elif n: break, else get input again "Please enter y or n"
